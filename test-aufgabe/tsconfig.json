@@ -1,0 +1,14 @@
+// filepath: c:\Users\dietz\Desktop\Code\test_aufgabe\test-aufgabe\tsconfig.json
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
